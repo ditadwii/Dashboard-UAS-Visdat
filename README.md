@@ -17,12 +17,6 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
 
@@ -68,7 +62,6 @@ Data yang digunakan dalam penelitian ini adalah data ekspor-impor yang berasal d
 
 <!-- GETTING STARTED -->
 ## Tahap Perancangan
-<br>
 
 ### Pengumpulan Data
 
@@ -108,7 +101,7 @@ Data yang telah disiapkan kemudian dilakukan tahap visualisasi menggunakan table
 ## Pembuatan Dashboard
 Setelah semua data telah divisualisasikan, selanjutnya adalah tahap menyatukan semua visualisasi ke dalam dashboard. Terdapat 2 bagian utama dalam dashboard yang telah dibuat, yaitu:
 
-* Header
+* _Header_
 
     Dalam bagian ini terdapat judul dashboard, _highlight_ informasi mengenai nilai ekspor atau impor migas dan non migas, serta menu untuk berpindah dashboard
 
