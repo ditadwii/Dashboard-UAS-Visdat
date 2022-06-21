@@ -33,221 +33,105 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
-
-  <p align="center">
-    An awesome README template to jumpstart your projects!
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
-  </p>
+  <h2 align="center">Sektor Perdagangan Luar Negeri Indonesia</h2>
 </div>
 
-
-
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
-
+<br>
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+# Implementasi Dashboard Interaktif untuk Data Ekspor-Impor Indonesia
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+Semakin meluasnya dampak dari globalisasi dan meningkatnya perkembangan teknologi, membuat ketergantungan antar negara semakin tinggi. Indonesia sebagai negara yang menganut sistem perekonomian terbuka membuat transaksi antar negara ini menjadi semakin mudah. Kegiatan jual beli antar negara tersebut dinamakan ekspor-impor. Kegiatan ekpor-impor dapat terjadi karena ketidakmampuan suatu negara dalam memenuhi kebutuhannya.
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+Data mengenai ekspor-impor disajikan secara periodik setiap tahunnya oleh BPS (Badan Pusat Statistik) dalam lingkup nasional. Penyajian data ekpor-impor pada laman resmi bps.go.id dapat dilihat melalui berbagai tabel dinamis dan dalam bentuk publikasi. Penyajian data dalam bentuk tabel dinamis dan publikasi yang ada dirasa masih kurang informatif karena masih disajikan secara statis tiap tahunnya. Oleh karena itu, dibutuhkan visualisasi data yang efektif supaya dapat memberikan kenyamanan kepada para pengguna data dalam memahami hubungan antar data serta dapat membantu dalam pengambilan keputusan secara tepat. 
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
+<br>
 
 
+## Sumber Data
 
-### Built With
+Data yang digunakan dalam penelitian ini adalah data ekspor-impor yang berasal dari tabel dinamis dan beberapa publikasi yang diterbitkan <a href="https://www.bps.go.id/">BPS RI</a> yaitu Statistik Perdagangan Luar Negeri Indonesia Ekspor/Impor Tahun 2015-2020. Data yang digunakan diantaranya
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
+* Data ekspor Indonesia ke negara-negara ASEAN
+* Data ekspor migas – non migas 
+* Data ekspor menurut golongan SITC
+* Data ekspor beberapa jenis barang utama nonmigas
+* Data nilai ekspor menurut kelompok negara ekonomi 
+* Data perdagangan luar negeri Indonesia dengan mitra dagang utama
+* Data impor migas – non migas
+* Data impor menurut golongan SITC
+* Data nilai impor menurut negara kelompok ekonomi
+* Data impor menurut golongan pengguna
+  <br><br>
 
 
 <!-- GETTING STARTED -->
-## Getting Started
+## Tahap Perancangan
+<br>
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+### Pengumpulan Data
 
-### Prerequisites
+Penelitian ini menggunakan data tabel dinamis dan beberapa publikasi yang diterbitkan <a href="https://www.bps.go.id/">BPS RI</a> mengenai ekspor-impor yaitu Statistik Perdagangan Luar Negeri Indonesia Ekspor/Impor Tahun 2015-2020.
+<br><br>
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+### Seleksi Data
+Dari berbagai macam sumber data yang diperoleh, selanjutnya akan dilakukan seleksi data untuk dapat memberikan gambaran suatu fenomena yang terjadi dengan memilih data yang penting dan lengkap yang kemudian akan dilakukan tahap visualisasi lebih lanjut. Semua data yang disajikan dalam visualisasi ini memiliki satuan Juta US$.
+<br><br>
 
-### Installation
+### Visualisasi Data
+Data yang telah disiapkan kemudian dilakukan tahap visualisasi menggunakan tableau dengan menggunakan beberapa jenis visualisasi yaitu:
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+1. Visualisasi Peta
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+    Data mengenai ekspor Indonesia ke negara-negara ASEAN dan data perdagangan luar negeri Indonesia dengan mitra dagang utama disajikan dalam bentuk peta. Visualisasi ini dipilih karena dirasa dapat membantu pengguna dalam mengetahui persebaran ekspor dan impor Indonesia ke dan dari beberapa negara tetangga. 
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+2. Diagram Garis
+   
+   Data mengenai ekspor-impor migas-non migas disajikan dalam bentuk diagram garis. Data mengenai ekspor-impor migas-non migas tersedia dalam bentuk time series setiap bulan sehingga penggunaan diagram garis dirasa cocok untuk menggambarkan trend dari perkembangan nilai ekpor-impor migas-non migas perbulan atau bahkan dari tahun 2015-2020. 
 
+3. _Treemap_
 
+    Data mengenai ekspor-impor menurut golongan SITC disajikan dalam bentuk _treemap_. Penggunaan visualisasi treemap ini dipilih karena dirasa akan lebih mudah ketika dipahami oleh pengguna.
+
+4. Diagram Batang
+
+    Data mengenai ekspor beberapa jenis barang utama non migas dan data impor menurut negara kelompok ekonomi disajikan dalam bentuk diagram batang. Pemilihan diagram batang untuk visualisasi ini bertujuan untuk memudahkan pengguna dalam melihat perbedaan dari masing masing sektor ekspor beberapa jenis barang utama non migas serta perbedaan impor berdasarkan negara kelompok ekonomi.
+
+5. _Donut Chart_
+
+    Data mengenai ekspor menurut negara kelompok ekonomi dan data impor menurut golongan pengguna disajikan dalam bentuk _donut chart_. Pemilihan visualisasi ini ditujukan supaya pengguna dapat dengan mudah memahami informasi yang akan disampaikan dan dikarenakan visualisasi denga menggunakan  _donut chart_ dirasa lebih baik daripada dengan _pie chart_.  
+
+<br>
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## Pembuatan Dashboard
+Setelah semua data telah divisualisasikan, selanjutnya adalah tahap menyatukan semua visualisasi ke dalam dashboard. Terdapat 2 bagian utama dalam dashboard yang telah dibuat, yaitu:
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+* Header
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+    Dalam bagian ini terdapat judul dashboard, _highlight_ informasi mengenai nilai ekspor atau impor migas dan non migas, serta menu untuk berpindah dashboard
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+    <div align="center">
+    <img src="images/header.png" alt="Header" > </div>
 
+* Visualisasi 
 
+    Dalam bagian ini terdapat seluruh hasil visualisasi data yang telah dibuat berdasarkan data yang ada.
 
-<!-- ROADMAP -->
-## Roadmap
+    <div align="center">
+    <img src="images/visualisasi.png" alt="Visualisasi" > </div> <br>
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
+Sedangkan untuk tampilan dashboard yang lengkap dapat dilihat pada gambar berikut.
+* Dasboard Ekspor
+  
+    <div align="center">
+    <img src="images/dashboard ekspor.png" alt="Dashboard Ekspor" > </div> <br>
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#top">back to top</a>)</p>
+* Dasboard Impor
+  
+    <div align="center">
+    <img src="images/dashboard impor.png" alt="Dashboard Impor" > </div> <br><br>
 
 
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
+Untuk detail dashboard secara online dapat diakses pada <a href="https://public.tableau.com/app/profile/dita.dwi5511/viz/UASVisdat_16554622919460/Dashboard2">Dashboard Visualisasi</a>
