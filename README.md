@@ -36,12 +36,8 @@
 <!-- ABOUT THE PROJECT -->
 # Implementasi Dashboard Interaktif untuk Data Ekspor-Impor Indonesia
 
-Semakin meluasnya dampak dari globalisasi dan meningkatnya perkembangan teknologi, membuat ketergantungan antar negara semakin tinggi. Indonesia sebagai negara yang menganut sistem perekonomian terbuka membuat transaksi antar negara ini menjadi semakin mudah. Kegiatan jual beli antar negara tersebut dinamakan ekspor-impor. Kegiatan ekpor-impor dapat terjadi karena ketidakmampuan suatu negara dalam memenuhi kebutuhannya.
-
-Data mengenai ekspor-impor disajikan secara periodik setiap tahunnya oleh BPS (Badan Pusat Statistik) dalam lingkup nasional. Penyajian data ekpor-impor pada laman resmi bps.go.id dapat dilihat melalui berbagai tabel dinamis dan dalam bentuk publikasi. Penyajian data dalam bentuk tabel dinamis dan publikasi yang ada dirasa masih kurang informatif karena masih disajikan secara statis tiap tahunnya. Oleh karena itu, dibutuhkan visualisasi data yang efektif supaya dapat memberikan kenyamanan kepada para pengguna data dalam memahami hubungan antar data serta dapat membantu dalam pengambilan keputusan secara tepat. 
-
+Semakin meluasnya dampak dari globalisasi dan meningkatnya perkembangan teknologi, membuat ketergantungan antar negara semakin tinggi. Indonesia sebagai negara yang menganut sistem perekonomian terbuka membuat transaksi jual-beli antar negara menjadi semakin mudah. Kegiatan jual beli antar negara tersebut dinamakan ekspor-impor. Kegiatan ekpor-impor dapat terjadi karena ketidakmampuan suatu negara dalam memenuhi kebutuhannya. Data mengenai ekspor-impor disajikan secara periodik setiap tahunnya oleh BPS (Badan Pusat Statistik) dalam lingkup nasional. Penyajian data ekpor-impor pada laman resmi bps.go.id dapat dilihat melalui berbagai tabel dinamis dan dalam bentuk publikasi. Penyajian data dalam bentuk tabel dinamis dan publikasi yang ada dirasa masih kurang informatif karena masih disajikan secara statis tiap tahunnya. Oleh karena itu, dibutuhkan visualisasi data yang efektif supaya dapat memberikan kenyamanan kepada para pengguna data dalam memahami hubungan antar data serta dapat membantu dalam pengambilan keputusan secara tepat. 
 <br>
-
 
 ## Sumber Data
 
@@ -81,11 +77,11 @@ Data yang telah disiapkan kemudian dilakukan tahap visualisasi menggunakan table
 
 2. Diagram Garis
    
-   Data mengenai ekspor-impor migas-non migas disajikan dalam bentuk diagram garis. Data mengenai ekspor-impor migas-non migas tersedia dalam bentuk time series setiap bulan sehingga penggunaan diagram garis dirasa cocok untuk menggambarkan trend dari perkembangan nilai ekpor-impor migas-non migas perbulan atau bahkan dari tahun 2015-2020. 
+   Data mengenai ekspor-impor migas-non migas disajikan dalam bentuk diagram garis. Data mengenai ekspor-impor migas-non migas tersedia dalam bentuk time series setiap bulan sehingga penggunaan diagram garis dirasa cocok untuk menggambarkan _trend_ dari perkembangan nilai ekpor-impor migas-non migas perbulan atau bahkan dari tahun 2015-2020. 
 
 3. _Treemap_
 
-    Data mengenai ekspor-impor menurut golongan SITC disajikan dalam bentuk _treemap_. Penggunaan visualisasi treemap ini dipilih karena dirasa akan lebih mudah ketika dipahami oleh pengguna.
+    Data mengenai ekspor-impor menurut golongan SITC disajikan dalam bentuk _treemap_. Penggunaan visualisasi _treemap_ ini dipilih karena dirasa akan lebih mudah ketika dipahami oleh pengguna.
 
 4. Diagram Batang
 
